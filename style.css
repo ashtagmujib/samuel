@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+
+#header {
+    width: 100vw;
+    background-color: #000;
+    margin: 0 0 50px;
+    padding: 20px;
+}
+
+#header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.2em;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+
+
+section {
+    margin-top: 20px;
+    width: 100vw;
+    height: auto;
+}
+
+
+main {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 20px;
+    color: #000;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 13px;
+    color: #747272;
+    margin: 20px 0;
+
+    text-align: left;
+    line-height: 20px;
+}
+
+
+input[type='button'] {
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+
+    display: block;
+    float:left;
+}
+
+
+input[type='button']:hover {
+    transform: scale(110%);
+    transition: transfrom 0.3s ease-in-out;
+}
+
+
+
+article {
+    width: 100vw;
+    height: 100%;
+    margin-top: 50px;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+article .blogPost {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 50px 2px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+}
+
+article .blogPost .dts {
+    width: 80%;
+    height: auto;
+}
+
+article .blogPost #abt {
+    display: flex;
+    gap: 15px;
+}
+
+article .blogPost p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #4b4848;
+    margin-bottom: 15px;
+}
+
+article .blogPost h3 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    color: #000;
+}
+
+article .blogPost .img {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(105, 105, 216);
+    border-radius: 50%;
+}
+
+
+#viewmore {
+    align-items: center;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 330px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    border-bottom-right-radius: 50px;
+
+    box-shadow: 2px 2px 30px 1px rgba(0, 0, 110, 0.15);
+}
+
+.form::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 30px;
+    height: 30px;
+    background-color: white;
+
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px 1px rgba(0, 0, 110, 0.2);
+}
+
+#inputControl {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+#inputControl #input {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 110, 0.1);
+    outline: none;
+
+    font-size: 12px;
+}
+
+
+
+#button {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+
+    margin-top: 50px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 110, 0.1);
+}
+
+#button:hover,#input:hover  {
+    transform: scale(105%);
+    transition: all 0.5s ease-in-out;
+}
+ */
+
+
+
+
+
+
+
